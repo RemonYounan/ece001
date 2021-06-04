@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="descripion" content="Input/Output">
+    <title>Remon Younan Tawfeek </title>
+
+    <style>
+          img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        p {
+            font-size: 25px;
+
+        }
+        .ul li {
+            display: inline-block;
+            font-size: 25px;
+            padding: 5px;
+        }
+    </style>
+ 
+
+</head>
+
+<body>
+    <ul class="ul">
+        <li>
+            <a href="index.html">Computer architecture</a>
+        </li>
+        <li>
+            <a href="processors.html">processors</a>
+        </li>
+        <li>
+            <a href="memory.html">memory</a>
+        </li>
+        <li>
+            <a href="ram.html">Ram</a>
+        </li>
+        <li>
+            <a href="rom.html">Rom</a>
+        </li>
+        
+    </ul>
+    <h1 style="font-size:50px;"><u>Input/Output : </u></h1>
+
+    <p>The address space of the processor can contain devices other than memory. These are input/output devices (I/O
+        devices, also known as peripherals ) and are used by the processor to communicate with the external world. Some
+        examples are serial controllers that communicate with keyboards, mice, modems, etc.; parallel I/O devices that
+        control some external subsystem; or disk-drive controllers, video and audio controllers, or network interfaces.
+    </p>
+    <img src="input-output.jpg" alt="">
+
+    <p>-There are three main ways in which data may be exchanged with the external world:</p>
+    <ul>
+        <li style="font-size: 25px;"><b>Programmed I/O</b></li>
+        <p>The processor accepts or delivers data at times convenient to it (the processor)</p>
+        <li style="font-size: 25px;"><b>Interrupt-driven I/O</b></li>
+        <p>External events control the processor by requesting the current program be suspended and the external event
+            be serviced. An external device will interrupt the processor (assert an interrupt control line into the
+            processor), at which time the processor will suspend the current task (program) and begin executing an
+            interrupt service routine. The service of an interrupt may involve transferring data from input to memory,
+            or from memory to output.</p>
+        <li style="font-size: 25px;"><b>Direct Memory Access (DMA)</b></li>
+        <p>DMA allows data to be transferred from I/O devices to memory directly without the continuous involvement of
+            the processor. DMA is used in high-speed systems, where the rate of data transfer is important. Not all
+            processors support DMA.</p>
+
+    </ul>
+
+
+</body>
+
+
+</html>
